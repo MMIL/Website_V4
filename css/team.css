@@ -1,0 +1,350 @@
+/* red #e64c20 */
+/* green #7fba00 */
+/* yellow #ffb900 */
+/* blue #00a3ef */
+/* font-family: 'Poppins', sans-serif;
+/* black dark #111111
+black light #202124 */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #111111;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+/* BG CLASSES */
+.bg-red {
+  background-image: linear-gradient(to bottom right, #e64c20, #e66f20);
+}
+.bg-green {
+  background-image: linear-gradient(to bottom right, #00ba3e, #7fba00);
+}
+.bg-yellow {
+  background-image: linear-gradient(to bottom right, #ffb900, #ffee00);
+}
+.bg-blue {
+  background-image: linear-gradient(to bottom right, #0040ef, #00a3ef);
+}
+.bg-purple {
+  background-image: linear-gradient(to bottom right, purple, rgb(207, 4, 207));
+}
+/* SCROLL BAR */
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(75, 75, 75, 0.7);
+  outline: 1px solid rgb(16, 17, 19);
+}
+section {
+  margin: 100px auto;
+}
+#topbg {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 20vw;
+  background-image: url(../media/newtbg.png);
+  background-size: cover;
+  background-position: 40% 50%;
+}
+.team-heading {
+  text-transform: uppercase;
+  margin: 100px auto 180px;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 1px 2px 5px black;
+  font-family: "Poppins", sans-serif;
+}
+.head-style {
+  margin: 40px 0;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #eee;
+}
+/* Flip Card */
+.tGallery {
+  margin: 10px 150px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tCard {
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  width: 250px;
+  height: 350px;
+  padding: 20px 50px;
+  perspective: 1000px;
+  color: white;
+  border-radius: 6px;
+}
+
+.tCard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.tCard:hover .tCard-inner {
+  transform: rotateY(-180deg);
+}
+
+.tCard-front,
+.tCard-back {
+  position: absolute;
+  width: 250px;
+  height: 350px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #202124;
+  border-radius: 6px;
+}
+
+.tCard-img {
+  height: 250px;
+  width: 250px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.tCard-img img {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  padding: 40px 20px;
+}
+.tCard-yr {
+  position: absolute;
+  right: 0px;
+  margin: 15px 18px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 700;
+}
+.tCard-text {
+  text-align: left;
+  padding: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tCard-job,
+.tCard-name {
+  padding: 5px 0;
+}
+.tCard-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+.tCard-job {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.tCard-jobicon {
+  display: flex;
+  padding: 8px;
+  border-radius: 4px;
+}
+.tCard-jobicon img {
+  height: 20px;
+  place-items: center;
+}
+
+/* Back Part */
+.tCard-back {
+  color: white;
+  transform: rotateY(180deg);
+}
+.tCard-back-icon {
+  font-size: 50px;
+  padding: 20px;
+  color: white;
+  text-shadow: 6px 10px 4px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s;
+}
+.tCard-back-icon:hover {
+  transform: scale(1.1);
+}
+.tCard-btn {
+  height: 100%;
+  place-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* BUTTON */
+.sa-btn {
+  width: max-content;
+  margin: 40px auto;
+}
+.sa-btn button {
+  border: none;
+  font-size: 18px;
+  background-color: #202124;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+.sa-btn button:hover {
+  background-color: #202124;
+}
+#tech-ex {
+  display: none;
+}
+#des-ex {
+  display: none;
+}
+
+@media (max-width: 1350px) {
+  .tGallery {
+    margin: 10px 120px;
+  }
+}
+@media (max-width: 1290px) {
+  .tGallery {
+    margin: 10px 80px;
+  }
+}
+@media (max-width: 1200px) {
+  .tGallery {
+    margin: 10px 0px;
+  }
+}
+@media (max-width: 1100px) {
+  .team-heading {
+    margin: 60px auto 110px;
+  }
+}
+@media (max-width: 900px) {
+  #topbg {
+    height: 220px;
+  }
+}
+@media (max-width: 650px) {
+  section {
+    margin: 50px 0;
+  }
+  .team-heading {
+    margin: 80px auto 50px;
+    padding: 0 10px;
+    font-size: 42px;
+  }
+  .head-style {
+    margin: 30px 0;
+    font-size: 26px;
+  }
+}
+@media (max-width: 450px) {
+  .team-heading {
+    font-size: 35px;
+  }
+}
+@media (max-width: 400px) {
+  .tCard {
+    padding: 20px;
+  }
+}
+
+footer a:link,
+footer a:visited {
+  text-decoration: none;
+  color: #eee;
+  transition: color 0.2s;
+}
+footer a:hover {
+  color: white;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px 40px 10px;
+  background-color: #202124;
+  color: #eee;
+}
+footer > * {
+  width: 23%;
+}
+.f1{
+  padding-right: 20px;
+}
+.f1-img img {
+  height: 60px;
+  width: auto;
+}
+.f1-text {
+  margin: 20px 0;
+  color: #eee;
+  transition: color 0.2s;
+  line-height: 25px;
+}
+.f1-text:hover {
+  color: white;
+}
+.foot-head {
+  font-size: 27px;
+  font-weight: 700;
+  padding: 10px 10px 5px;
+  color: #eee;
+}
+.foot-list {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+.foot-list > * {
+  padding: 3px;
+}
+.foot-icon {
+  font-size: 25px;
+}
+.foot-icon > * {
+  margin-right: 15px;
+}
+.end {
+  background-color: #202124;
+}
+.line {
+  width: 95vw;
+  margin: 0 auto;
+  color: #eee;
+}
+.copy {
+  color: #eee;
+  text-align: center;
+  padding: 15px;
+}
+@media (max-width: 800px) {
+  footer {
+    flex-direction: column;
+  }
+  footer > * {
+    width: 70%;
+  }
+}
+@media (max-width: 400px) {
+  footer > * {
+    width: 100%;
+  }
+}

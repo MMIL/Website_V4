@@ -1,0 +1,208 @@
+/* red #e64c20 */
+/* green #7fba00 */
+/* yellow #ffb900 */
+/* blue #00a3ef */
+/* font-family: 'Poppins', sans-serif;
+/* black dark #111111
+black light #202124 */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #111111;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+/* SCROLL BAR */
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(75, 75, 75, 0.7);
+  outline: 1px solid rgb(16, 17, 19);
+}
+#topbg {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 20vw;
+  background-image: url(../media/evebg.png);
+  background-size: cover;
+  background-position: 40% 50%;
+}
+.team-heading {
+  text-transform: uppercase;
+  margin: 100px auto 130px;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 1px 2px 5px black;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.logo img {
+  height: 55px;
+  width: auto;
+}
+.posts {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px 50px;
+}
+.igp {
+  margin: 30px 40px 60px;
+}
+.posts-fb{
+  margin-bottom: 80px;
+}
+@media (max-width: 1100px) {
+  .team-heading {
+    margin: 60px auto 110px;
+  }
+}
+@media (max-width: 900px) {
+  #topbg {
+    height: 220px;
+  }
+}
+@media (max-width: 650px) {
+  .team-heading {
+    margin: 80px auto 60px;
+    padding: 0 10px;
+    font-size: 42px;
+  }
+}
+@media (max-width: 450px) {
+  .team-heading {
+    margin: 80px auto 0px;
+    font-size: 35px;
+  }
+}
+@media (max-width: 500px) {
+  .posts {
+    margin: 10px 50px;
+  }
+  .igp {
+    margin: 30px 10px;
+  }
+  .posts-fb{
+    display: none;
+  }
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #eee;
+  transition: color 0.2s;
+}
+a:hover {
+  color: white;
+}
+footer a:link,
+footer a:visited {
+  text-decoration: none;
+  color: #eee;
+  transition: color 0.2s;
+}
+footer a:hover {
+  color: white;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 40px 40px 10px;
+  background-color: #202124;
+  color: #eee;
+}
+footer > * {
+  width: 21%;
+}
+.f1 {
+  padding-right: 20px;
+}
+.f1-img img {
+  height: 60px;
+  width: auto;
+}
+.f1-text {
+  margin: 20px 0;
+  color: #eee;
+  transition: color 0.2s;
+  line-height: 25px;
+}
+.f1-text:hover {
+  color: white;
+}
+.f2 {
+  width: 15%;
+}
+.foot-head {
+  font-size: 27px;
+  font-weight: 700;
+  padding: 10px 10px 5px;
+  color: #eee;
+}
+.foot-list {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+.foot-list > * {
+  padding: 3px;
+}
+.foot-icon {
+  font-size: 25px;
+}
+.foot-icon > * {
+  margin-right: 15px;
+}
+.end {
+  background-color: #202124;
+}
+.line {
+  width: 95vw;
+  margin: 0 auto;
+  color: #eee;
+}
+.copy {
+  color: #eee;
+  text-align: center;
+  padding: 15px;
+}
+@media (max-width: 970px) {
+  footer {
+    flex-direction: column;
+  }
+  footer > * {
+    width: 70%;
+  }
+}
+@media (max-width: 800px) {
+  .foot-head {
+    padding: 10px 0px 5px;
+  }
+  .foot-list {
+    padding: 10px 0px;
+  }
+}
+@media (max-width: 400px) {
+  footer > * {
+    width: 100%;
+  }
+}

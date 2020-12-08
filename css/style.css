@@ -1,0 +1,777 @@
+/* Loader */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.loading {
+    /* pointer-events: none; */
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+/* spinner */
+
+img#im {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    animation: rotation 6s infinite linear;
+    z-index: 10;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+img#logo {
+    position: absolute;
+    top: 42%;
+    left: 25.3%;
+    z-index: 100;
+}
+
+#popup {
+    height: 850px;
+    width: 850px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-image: url("/images/hello.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateX(900px);
+    padding-top: 50px;
+    transition: transform 1s ease-in-out;
+    font-family: poppins, sans-serif;
+    z-index: 8;
+}
+
+
+/* h2 {
+    font-size: 44px;
+    position: absolute;
+    top: 1%;
+    left: 40%;
+    color: whitesmoke;
+    animation: rotate 4s linear infinite;
+} */
+
+
+/* span{
+    color:#ffd629;
+}*/
+
+#question {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 13.5%;
+    left: 53%;
+    z-index: 2;
+}
+
+text {
+    pointer-events: none;
+}
+
+#chart {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 44.5%;
+    left: 36.15%;
+    transform: translate(-50%, -40%);
+    z-index: 10;
+}
+
+#popup.active {
+    transform: translateX(0px);
+}
+
+#question h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    margin: 0;
+    top: 55%;
+}
+
+#marker {
+    position: absolute;
+    top: 22%;
+    left: 25.3%;
+    z-index: 20;
+}
+
+#stand {
+    position: absolute;
+    top: 20%;
+    z-index: 3;
+}
+
+#image {
+    position: absolute;
+    top: 22%;
+    left: 53.5%;
+    z-index: 50;
+}
+
+
+/* spinner-end */
+
+.loader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    object-fit: cover;
+    z-index: 9999;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #111111 !important;
+    color: whitesmoke !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Raleway', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#startpage {
+    position: absolute;
+    background: url("/media/lfi.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
+}
+
+
+/* .logo {
+    width: 100px;
+    height: 50px;
+} */
+
+.banner {
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+}
+
+.output {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+
+.type_content {
+    width: 100vh;
+    height: 30vh;
+}
+
+.writer {
+    font-size: 30px;
+}
+
+
+/* Cursor Styling */
+
+.cursor::after {
+    content: '';
+    display: inline-block;
+    margin-left: 3px;
+    background-color: white;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+h1.cursor::after {
+    height: 24px;
+    width: 13px;
+}
+
+p.cursor::after {
+    height: 13px;
+    width: 6px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#vid {
+    width: 100vh;
+    height: 60vh;
+    margin-top: 100px;
+    object-fit: contain;
+}
+
+.col-lg-6 {
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-8 {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-switch .custom-control-label::before {
+    background-color: #111111;
+}
+
+.custom-switch .custom-control-label::after {
+    background-color: #202125;
+}
+
+.custom-switch .custom-control-input:checked~.custom-control-label::after {
+    background-color: #fff;
+}
+
+.custom-switch .custom-control-input:checked~.custom-control-label::before {
+    background-color: #414141;
+}
+
+
+/* Clubs-Section */
+
+
+/* red #e64c20 */
+
+
+/* green #7fba00 */
+
+
+/* yellow #ffb900 */
+
+
+/* blue #00a3ef */
+
+
+/* font-family: 'Raleway', sans-serif; 300,700 */
+
+
+/* black dark #111111
+black light #202124 */
+
+
+/* body {
+    background-color: #111111;
+} */
+
+
+/* BG CLASSES */
+
+.bg-red {
+    background-image: linear-gradient(to bottom right, #e64c20, #e66f20);
+}
+
+.bg-green {
+    background-image: linear-gradient(to bottom right, #00ba3e, #7fba00);
+}
+
+.bg-yellow {
+    background-image: linear-gradient(to bottom right, #ffb900, #ffee00);
+}
+
+.bg-blue {
+    background-image: linear-gradient(to bottom right, #0040ef, #00a3ef);
+}
+
+.club {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 120px;
+}
+
+.club_back {
+    position: absolute;
+    background: url("/media/lfi.png") no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
+@media (max-width: 600px) {
+    .club {
+        margin: 30px 5px;
+    }
+}
+
+.club-card {
+    width: 220px;
+    height: 330px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #181818;
+    margin: 35px 20px;
+    box-shadow: 2px 3px 7px #080808;
+    cursor: pointer;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+
+.club-card:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0px 2px 7px #080808;
+}
+
+.club-card__header {
+    border-bottom-right-radius: 40px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.club-icon {
+    width: 50px;
+    margin: auto;
+}
+
+.club-icon img {
+    width: 50px;
+    height: auto;
+}
+
+.club-head {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.club-des {
+    font-size: 15px;
+    line-height: 25px;
+    padding: 0 20px;
+}
+
+.club_heading {
+    font-size: 2rem;
+}
+
+.club_heading_div {
+    margin-top: 0px;
+    justify-content: center;
+}
+
+
+/* Plane-Section */
+
+.animation_heading {
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.planeanimation {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    /* background: #111111 url("spaceBg.png") no-repeat center center;
+    background-size: cover; */
+}
+
+.plane_animation {
+    background: #111111 url("/media/overlay4.png") no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    z-index: -2;
+}
+
+.plane {
+    height: 100px;
+    position: absolute;
+    transform: rotate(180deg);
+    top: 5%;
+    right: 37%;
+}
+
+.ellipse {
+    background-color: #ffffff;
+    position: relative;
+    left: 70%;
+    margin-top: 5vw;
+    float: right !important;
+    height: 50px;
+    width: 50px;
+    border-radius: 6px;
+}
+
+.ellipse1 {
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 10vw;
+    margin-left: 10vw;
+    height: 50px;
+    width: 50px;
+    border-radius: 6px;
+}
+
+.ellipse2 {
+    background-color: #ffffff;
+    position: relative;
+    left: 70%;
+    margin-top: 10vw;
+    /* float: right !important; */
+    height: 50px;
+    width: 50px;
+    border-radius: 6px;
+}
+
+
+/* Button Animation */
+
+.animation_buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    height: 100px;
+    width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #181818;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
+    overflow: hidden;
+}
+
+.animation_buttons:hover {
+    color: #f1f1f1;
+}
+
+.animation_buttons p {
+    transition: transform .2s;
+}
+
+.animation_buttons p:hover {
+    color: #f1f1f1;
+    text-shadow: 0 0 10px rgba(1, 1, 1, 1), 0 0 20px rgba(1, 1, 1, 1), 0 0 40px rgba(1, 1, 1, 1), 0 0 30px rgba(1, 1, 1, 1), 0 0 8px rgba(1, 1, 1, .1);
+    transform: scale(1.05);
+}
+
+.animation_buttons span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #111111, #79d70f);
+    animation: animation_01 2s linear infinite;
+}
+
+@keyframes animation_01 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.animation_buttons span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom, #111111, #fecd1a);
+    animation: animation_02 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animation_02 {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+.animation_buttons span:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to left, #111111, #1779ff);
+    animation: animation_03 2s linear infinite;
+    animation-delay: 2s;
+}
+
+@keyframes animation_03 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.animation_buttons span:nth-child(4) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to top, #111111, #fa1616);
+    animation: animation_04 2s linear infinite;
+    animation-delay: 3s;
+}
+
+@keyframes animation_04 {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+
+/* Button Animation end  */
+
+
+/* Plane-Section-end */
+
+
+/* Footer-Section */
+
+#footer {
+    background-color: #181818;
+    color: #f1f1f1;
+    padding: 1rem 3rem;
+    /* margin-top: 1rem; */
+    z-index: -2;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.img_footer {
+    width: 10vw;
+    height: 5vw;
+}
+
+.footer_desc {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.social {
+    font-size: 1.5rem !important;
+    margin-right: 15px;
+}
+
+.footer_list {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.footer_intro {
+    padding: 16px;
+    margin-left: 0;
+}
+
+.footer_heading {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.foot_margin {
+    margin-left: 70px;
+}
+
+.footer_hr {
+    width: 100%;
+    height: 3px;
+    background-color: #eee;
+}
+
+.footer_top {
+    width: 100%;
+    object-fit: cover;
+}
+
+.social {
+    color: #f8f9fa !important;
+}
+
+.social:hover {
+    color: #f8f9fa !important;
+}
+
+@media (max-width:1050px) {
+    .type_content {
+        margin-top: 140px;
+    }
+}
+
+
+/* Footer-Section-end */
+
+@media (max-width: 900px) {
+    html,
+    body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    #vid {
+        margin-top: 200px;
+        /* margin-left: 50px; */
+        width: 40vh;
+        height: 20vh;
+    }
+    .type_content {
+        margin-top: 70px;
+    }
+    .club_heading_div {
+        margin-top: 200px;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .type_content {
+        width: 80vw;
+        height: 30vh;
+    }
+    .writer {
+        font-size: 20px;
+        /* margin-top: 50px; */
+    }
+    .typer {
+        margin-top: 100px;
+    }
+    .animation_heading {
+        font-weight: 500;
+        font-size: 2rem;
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+    .img_footer {
+        width: 30vw;
+        height: 15vw;
+        justify-self: center;
+    }
+    .footer_image_div {
+        justify-content: center;
+    }
+    #footer {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+    .footer_heading {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+    .footer_list {
+        margin-top: 0;
+    }
+    .footer_desc {
+        font-size: 1rem;
+    }
+    .foot_margin {
+        margin-left: 0;
+    }
+    .footer_intro {
+        padding: 0;
+        padding-top: 15px;
+    }
+    /* .club_back {
+        visibility: hidden;
+    } */
+    /* Animation Section */
+    .ellipse {
+        background-color: #ffffff;
+        position: relative;
+        margin: auto;
+        left: auto;
+        margin-top: 100px;
+        float: right !important;
+        height: 50px;
+        width: 50px;
+        border-radius: 6px;
+    }
+    .ellipse1 {
+        background-color: #ffffff;
+        position: relative;
+        margin: auto;
+        margin-top: 100px;
+        height: 50px;
+        width: 50px;
+        border-radius: 6px;
+    }
+    .ellipse2 {
+        background-color: #ffffff;
+        position: relative;
+        margin: auto;
+        margin-top: 100px;
+        left: auto;
+        /* float: right !important; */
+        height: 50px;
+        width: 50px;
+        border-radius: 6px;
+    }
+    .plane {
+        width: 50px;
+        position: absolute;
+        left: 20px;
+    }
+}
