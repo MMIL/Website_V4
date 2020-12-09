@@ -606,9 +606,9 @@ black light #202124 */
 }
 
 .footer_desc {
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
     margin-top: 10px;
 }
 
@@ -621,6 +621,8 @@ black light #202124 */
     padding: 0;
     list-style: none;
     margin-bottom: 0;
+    font-size:16px;
+    font-weight:500;
     margin-top: 20px;
 }
 
@@ -630,8 +632,8 @@ black light #202124 */
 }
 
 .footer_heading {
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 27px;
+    font-weight: 700;
 }
 
 .foot_margin {
