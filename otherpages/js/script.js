@@ -355,22 +355,22 @@ const headDef = document.getElementById("head-def");
 
 const techDef = document.getElementById("tech-def");
 const techBtn = document.getElementById("tech-btn");
-const techEx = document.getElementById("tech-ex");
 
 const desDef = document.getElementById("des-def");
 const desBtn = document.getElementById("des-btn");
-const desEx = document.getElementById("des-ex");
 
 let techClose = true;
 let desClose = true;
-let eventAdder = (booleanVal, el, btn) => {
+let eventAdder = (booleanVal, el, btn, initial, extraCon) => {
   btn.addEventListener("click", () => {
     if (booleanVal) {
-      el.style.display = "flex";
+      cardAdder(extraCon, el);
       el.scrollIntoView({ behavior: "smooth" });
       btn.textContent = "-";
     } else {
-      el.style.display = "none";
+      el.innerHTML = "";
+      cardAdder(initial, el);
+      el.scrollIntoView({ behavior: "smooth" });
       btn.textContent = "+";
     }
     booleanVal = !booleanVal;
@@ -417,11 +417,11 @@ let cardAdder = (arr, el) => {
 cardAdder(head_default, headDef);
 
 //For technical section
-eventAdder(techClose, techEx, techBtn);
+eventAdder(techClose, techDef, techBtn, tech_default, tech_teams);
 cardAdder(tech_default, techDef);
-cardAdder(tech_teams, techEx);
+// cardAdder(tech_teams, techDef);
 
 //For designing section
-eventAdder(desClose, desEx, desBtn);
+eventAdder(desClose, desDef, desBtn, des_default, des_teams);
 cardAdder(des_default, desDef);
-cardAdder(des_teams, desEx);
+// cardAdder(des_teams, desDef);
