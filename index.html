@@ -1,522 +1,634 @@
 <!DOCTYPE html>
 
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="./media/favicon.png" type="image/x-icon">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="./media/favicon.png" type="image/x-icon" />
     <title>MMIL-Home</title>
-    <meta name="description" content="">
+    <meta
+      name="description"
+      content="Offical website of Microsoft Mobile Innovation Labs, JSSATEN"
+    />
     <meta name="theme-color" content="#111111" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/v4-shims.min.css" integrity="sha512-p++g4gkFY8DBqLItjIfuKJPFvTPqcg2FzOns2BNaltwoCOrXMqRIOqgWqWEvuqsj/3aVdgoEo2Y7X6SomTfUPA==" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/v4-shims.min.css"
+      integrity="sha512-p++g4gkFY8DBqLItjIfuKJPFvTPqcg2FzOns2BNaltwoCOrXMqRIOqgWqWEvuqsj/3aVdgoEo2Y7X6SomTfUPA=="
+      crossorigin="anonymous"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
     <script src="./js/typing.js"></script>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body class="loading">
+  <body class="loading">
     <div class="loader-wrap">
-        <video class="loader" src="./media/LoaderMmil.mp4" muted autoplay>
-    </video>
+      <video class="loader" src="./media/LoaderMmil.mp4" muted autoplay></video>
     </div>
-    <!-- <form class="form-inline float-right mx-4 mt-3 mr-3">
-        
-    </form> -->
-    <a href="#" id="btn"><img src="https://assets.privy.com/picture_photos/363757/small/8b16b7597f724c4cb19eff4ff5f54ad4?1499356015" width="50" height="50" id="im">
+
+    <!-- Wheel Spin code -->
+    <!-- <a href="#" id="btn"
+      ><img
+        src="https://assets.privy.com/picture_photos/363757/small/8b16b7597f724c4cb19eff4ff5f54ad4?1499356015"
+        width="50"
+        height="50"
+        id="im"
+      />
     </a>
     <div id="popup">
-        <img src="./images/marker.png" width="50" height="50" id="marker">
-        <img src="./images/mmil logo.png" width="50" height="36" id="logo">
-        <img src="./images/deeksha 2.png" width="480" height="470" id="stand">
-        <div id="chart"></div>
-        <!-- <h2><span>Wheel</span> Spin</h2> -->
-        <div id="image"></div>
-        <div id="question">
-            <h1></h1>
-        </div>
-    </div>
+      <img src="./images/marker.png" width="50" height="50" id="marker" />
+      <img src="./images/mmil logo.png" width="50" height="36" id="logo" />
+      <img src="./images/deeksha 2.png" width="480" height="470" id="stand" />
+      <div id="chart"></div>
+      <div id="image"></div>
+      <div id="question">
+        <h1></h1>
+      </div>
+    </div> -->
+
     <div class="container-fluid">
-        <div id="startpage"></div>
-        <div class="row align-content-center justify-content-start">
-            <div class=" col-md-2"></div>
-            <div class=" col-md-8">
-                <video id="vid" src="media/TextLogo1.mp4" loop autoplay muted>
-                </video>
-
-            </div>
-            <div class=" col-md-2"></div>
-
+      <div id="startpage"></div>
+      <div class="row align-content-center justify-content-start">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <video id="vid" src="media/TextLogo1.mp4" loop autoplay muted></video>
         </div>
-        <div id="typer" class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-                <div class="type_content mx-2">
-                    <div class="output" id="output">
-                        <h1 class="cursor writer"></h1>
-                        <p></p>
-                    </div>
-                </div>
+        <div class="col-md-2"></div>
+      </div>
+      <div id="typer" class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="type_content mx-2">
+            <div class="output" id="output">
+              <h1 class="cursor writer"></h1>
+              <p></p>
             </div>
-            <div class="col-md-2"></div>
-
+          </div>
         </div>
+        <div class="col-md-2"></div>
+      </div>
     </div>
     <!-- Card Section -->
     <div class="row mt-lg-5 club_heading_div">
-        <h2 class="club_heading">OUR CLUBS</h2>
+      <h2 class="club_heading">OUR CLUBS</h2>
     </div>
     <div class="club">
-        <div class="club_back"></div>
-        <div class="club-card">
-            <div class="club-card__header bg-red">
-                <div class="club-icon">
-                    <img src="./media/web-development.svg" alt="">
-                </div>
-            </div>
-            <div class="club-card__body">
-                <p class="club-head">
-                    Web Development
-                </p>
-                <p class='club-des'>
-                    We build websites, for the purpose of learning, implementing our imagination using frontend and designs.
-                </p>
-            </div>
+      <div class="club_back"></div>
+      <div class="club-card">
+        <div class="club-card__header bg-red">
+          <div class="club-icon">
+            <img src="./media/web-development.svg" alt="" />
+          </div>
         </div>
-        <div class="club-card">
-            <div class="club-card__header bg-green">
-                <div class="club-icon">
-                    <img src="./media/android.svg" alt="">
-                </div>
-            </div>
-            <div class="club-card__body">
-                <p class="club-head">
-                    Android
-                </p>
-                <p class='club-des'>We build apps to give solutions, focusing on product development concepts of android.
-                </p>
-            </div>
+        <div class="club-card__body">
+          <p class="club-head">Web Development</p>
+          <p class="club-des">
+            We build websites, for the purpose of learning, implementing our
+            imagination using frontend and designs.
+          </p>
         </div>
-        <div class="club-card">
-            <div class="club-card__header bg-yellow">
-                <div class="club-icon">
-                    <img src="./media/zero.svg" alt=" ">
-                </div>
-            </div>
-            <div class=" club-card__body ">
-                <p class="club-head ">
-                    Programming
-                </p>
-                <p class='club-des'>Controlling the complexity is the essence of programming.We code, and focus on problem solving of individuals.
-                </p>
-            </div>
+      </div>
+      <div class="club-card">
+        <div class="club-card__header bg-green">
+          <div class="club-icon">
+            <img src="./media/android.svg" alt="" />
+          </div>
         </div>
-        <div class="club-card ">
-            <div class="club-card__header bg-blue ">
-                <div class="club-icon ">
-                    <img src="./media/design.svg " alt=" ">
-                </div>
-            </div>
-            <div class="club-card__body ">
-                <p class="club-head ">
-                    Designing
-                </p>
-                <p class='club-des'>We design, and make our products more user friendly.We design for a change and adorn the dreams into reality.
-                </p>
-            </div>
+        <div class="club-card__body">
+          <p class="club-head">Android</p>
+          <p class="club-des">
+            We build apps to give solutions, focusing on product development
+            concepts of android.
+          </p>
         </div>
+      </div>
+      <div class="club-card">
+        <div class="club-card__header bg-yellow">
+          <div class="club-icon">
+            <img src="./media/zero.svg" alt=" " />
+          </div>
+        </div>
+        <div class="club-card__body">
+          <p class="club-head">Programming</p>
+          <p class="club-des">
+            Controlling the complexity is the essence of programming.We code,
+            and focus on problem solving of individuals.
+          </p>
+        </div>
+      </div>
+      <div class="club-card">
+        <div class="club-card__header bg-blue">
+          <div class="club-icon">
+            <img src="./media/design.svg " alt=" " />
+          </div>
+        </div>
+        <div class="club-card__body">
+          <p class="club-head">Designing</p>
+          <p class="club-des">
+            We design, and make our products more user friendly.We design for a
+            change and adorn the dreams into reality.
+          </p>
+        </div>
+      </div>
     </div>
     <!-- Card section end -->
     <div class="container">
-        <div class="row justify-content-center animation_heading">
-            <p class="text-light">EXPLORE US</p>
-        </div>
+      <div class="row justify-content-center animation_heading">
+        <p class="text-light">EXPLORE US</p>
+      </div>
     </div>
     <section class="planeanimation">
-        <div class="container">
-            <div class="plane_animation">
-                <div class="row">
-                    <div class="ellipse">
-                        <a class="animation_buttons text-decoration-none" href="./otherpages/team.html">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <p class="mt-3 text-center">OUR TEAM</p>
-                        </a>
-                    </div>
-                </div>
-                <img class="plane" src="./media/plane.svg" alt="paper-plane">
-                <div class="row">
-                    <div class="ellipse1">
-                        <a class="animation_buttons text-decoration-none" href="./otherpages/project.html">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <p class="mt-3 text-center">OUR PROJECTS</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="ellipse2">
-                        <a class="animation_buttons text-decoration-none" href="./otherpages/event.html">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <p class="text-center">EVENTS &amp; Resources</p>
-                        </a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="plane_animation">
+          <div class="row">
+            <div class="ellipse">
+              <a
+                class="animation_buttons text-decoration-none"
+                href="./otherpages/team.html"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <p class="mt-3 text-center">OUR TEAM</p>
+              </a>
             </div>
+          </div>
+          <img class="plane" src="./media/plane.svg" alt="paper-plane" />
+          <div class="row">
+            <div class="ellipse1">
+              <a
+                class="animation_buttons text-decoration-none"
+                href="./otherpages/project.html"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <p class="mt-3 text-center">OUR PROJECTS</p>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="ellipse2">
+              <a
+                class="animation_buttons text-decoration-none"
+                href="./otherpages/event.html"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <p class="text-center">EVENTS &amp; Resources</p>
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <div class="container-fluid">
-        <div class="row">
-            <img class="footer_top" src="./media/moontop.png" alt="">
-        </div>
+      <div class="row">
+        <img class="footer_top" src="./media/moontop.png" alt="" />
+      </div>
     </div>
     <div id="footer" class="row justify-content-center">
-        <div class="container-fluid">
-            <div class="row">
-                <div class=" col-lg-3 col-md-6 ">
-                    <div class="row foot_margin">
-                        <div class="footer_image_div">
-                            <img class="img_footer" src="media/mmillogo2.png" alt="">
-                        </div>
-                        <div class="footer_intro">
-                            <p class="footer_desc"> MMIL is a team of Geeks . We help our society in providing outstanding projects with our utmost efforts.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="footer_heading foot_margin">
-                        About Us
-                    </h3>
-                    <ul class="footer_list foot_margin">
-                        <!--<li><a class="text-light text-decoration-none mb-3" href="#">Home</a></li>-->
-                        <li><a class="text-light text-decoration-none mb-4" href="#">MMIL</a></li>
-                        <li><a class="text-light text-decoration-none" href="./otherpages/team.html">Team</a></li>
-
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="footer_heading foot_margin">
-                        Useful Resources
-                    </h3>
-                    <ul class="footer_list foot_margin">
-                        <!--<li><a class="text-light text-decoration-none mb-3" href="#">FAQs</a></li>-->
-                        <li><a class="text-light text-decoration-none mb-4" href="./otherpages/project.html">Projects</a></li>
-                        <li><a class="text-light text-decoration-none" href="./otherpages/event.html">Events</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="footer_heading foot_margin">
-                        Let's Talk
-                    </h3>
-                    <ul class="footer_list foot_margin">
-                        <li id="contact-us">
-                            <a href="https://www.linkedin.com/company/mmil/" class="social"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                            
-                            <a href="https://www.instagram.com/jssmmil" class="social"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-
-                            <a href="https://www.facebook.com/jssmmil/" class="social"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            Email :<a class="text-light text-decoration-none" href="mailto:mmiljss@gmail.com" target="_blank">mmiljss@gmail.com</a>
-                        </li>
-                        <li>
-                            Phone :<a class="text-light text-decoration-none" href="tel:+917985488870">(+91) 7985488870</a>
-                        </li>
-                        <li>
-                            Website :<a class="text-decoration-none text-light" href="https://www.jssmmil.in" target="_blank">jssmmil.in</a>
-                        </li>
-                    </ul>
-                </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="row foot_margin">
+              <div class="footer_image_div">
+                <img class="img_footer" src="media/mmillogo2.png" alt="" />
+              </div>
+              <div class="footer_intro">
+                <p class="footer_desc">
+                  MMIL is a team of Geeks . We help our society in providing
+                  outstanding projects with our utmost efforts.
+                </p>
+              </div>
             </div>
-            <div class="row">
-                <hr class="footer_hr">
-            </div>
-            <div class="row justify-content-center">
-                &copy; MMIL 2020
-            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class="footer_heading foot_margin">About Us</h3>
+            <ul class="footer_list foot_margin">
+              <!--<li><a class="text-light text-decoration-none mb-3" href="#">Home</a></li>-->
+              <li>
+                <a class="text-light text-decoration-none mb-4" href="#"
+                  >MMIL</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-light text-decoration-none"
+                  href="./otherpages/team.html"
+                  >Team</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h3 class="footer_heading foot_margin">Useful Resources</h3>
+            <ul class="footer_list foot_margin">
+              <!--<li><a class="text-light text-decoration-none mb-3" href="#">FAQs</a></li>-->
+              <li>
+                <a
+                  class="text-light text-decoration-none mb-4"
+                  href="./otherpages/project.html"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-light text-decoration-none"
+                  href="./otherpages/event.html"
+                  >Events</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h3 class="footer_heading foot_margin">Let's Talk</h3>
+            <ul class="footer_list foot_margin">
+              <li id="contact-us">
+                <a href="https://www.linkedin.com/company/mmil/" class="social"
+                  ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+                ></a>
+
+                <a href="https://www.instagram.com/jssmmil" class="social"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+
+                <a href="https://www.facebook.com/jssmmil/" class="social"
+                  ><i class="fa fa-facebook-square" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                Email :<a
+                  class="text-light text-decoration-none"
+                  href="mailto:mmiljss@gmail.com"
+                  target="_blank"
+                  >mmiljss@gmail.com</a
+                >
+              </li>
+              <li>
+                Phone :<a
+                  class="text-light text-decoration-none"
+                  href="tel:+917985488870"
+                  >(+91) 7985488870</a
+                >
+              </li>
+              <li>
+                Website :<a
+                  class="text-decoration-none text-light"
+                  href="https://www.jssmmil.in"
+                  target="_blank"
+                  >jssmmil.in</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+        <div class="row">
+          <hr class="footer_hr" />
+        </div>
+        <div class="row justify-content-center">&copy; MMIL 2020</div>
+      </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
-        setTimeout(function() {
-            $(".loader").fadeToggle(function() {
-                $('body').removeClass('loading');
-            });
-        }, 7000);
+      setTimeout(function () {
+        $(".loader").fadeToggle(function () {
+          $("body").removeClass("loading");
+        });
+      }, 7000);
     </script>
     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-    <script type="text/javascript" charset="utf-8">
-        var padding = {
-                top: 20,
-                right: 40,
-                bottom: 0,
-                left: 20
-            },
-            w = 385 - padding.left - padding.right,
-            h = 375 - padding.top - padding.bottom,
-            r = Math.min(w, h) / 2,
-            rotation = 0,
-            oldrotation = 0,
-            picked = 10000,
-            oldpick = [],
-            color = d3.scale.category20(); //category20c()
 
-        //randomNumbers = getRandomNumbers();
-        var data = [{
-            label: "200",
-            value: 1,
-            image: "images/e.jpg",
-            question: "Who is this very handsome dog?"
-        }, {
-            label: "300",
-            value: 1,
-            image: "images/photo5.jpg",
-            question: "In what year does distracted boyfriend meme originated?"
-        }, {
-            label: "100",
-            value: 1,
-            image: "images/photos6.jpg",
-            question: "What does bomboclaat means?"
-        }, {
-            label: "50",
-            value: 1,
-            image: "images/photo8.jpg",
-            question: "Finish this meme :"
-        }, {
-            label: "JACKPOT",
-            value: 1,
-            question: "Percentage of money that exist on computer?"
-        }, {
-            label: "400",
-            value: 1,
-            question: "When I get multiplied by any number, the sum of the figures in the product is always me. What am I?"
-        }, {
-            label: "500",
-            value: 1,
-            question: "The First Computer Mouse was Made of?"
-        }, {
-            label: "20",
-            value: 1,
-            question: "Why was qwerty keyboard designed?"
-        }, {
-            label: "30",
-            value: 1,
-            question: "Initial version of Youtube was a....?"
-        }, {
-            label: "JACKPOT",
-            value: 1,
-            question: "Python programming language was named after a?"
-        }];
-        var svg = d3.select('#chart')
-            .append("svg")
-            .data([data])
-            .attr("width", w + padding.left + padding.right)
-            .attr("height", h + padding.top + padding.bottom);
+    <!-- Wheel Spin Script -->
+    <!-- <script type="text/javascript" charset="utf-8">
+      var padding = {
+          top: 20,
+          right: 40,
+          bottom: 0,
+          left: 20,
+        },
+        w = 385 - padding.left - padding.right,
+        h = 375 - padding.top - padding.bottom,
+        r = Math.min(w, h) / 2,
+        rotation = 0,
+        oldrotation = 0,
+        picked = 10000,
+        oldpick = [],
+        color = d3.scale.category20(); 
 
-        var container = svg.append("g")
-            .attr("class", "chartholder")
-            .attr("transform", "translate(" + (w / 2 + padding.left) + "," + (h / 2 + padding.top) + ")");
+      var data = [
+        {
+          label: "200",
+          value: 1,
+          image: "images/e.jpg",
+          question: "Who is this very handsome dog?",
+        },
+        {
+          label: "300",
+          value: 1,
+          image: "images/photo5.jpg",
+          question: "In what year does distracted boyfriend meme originated?",
+        },
+        {
+          label: "100",
+          value: 1,
+          image: "images/photos6.jpg",
+          question: "What does bomboclaat means?",
+        },
+        {
+          label: "50",
+          value: 1,
+          image: "images/photo8.jpg",
+          question: "Finish this meme :",
+        },
+        {
+          label: "JACKPOT",
+          value: 1,
+          question: "Percentage of money that exist on computer?",
+        },
+        {
+          label: "400",
+          value: 1,
+          question:
+            "When I get multiplied by any number, the sum of the figures in the product is always me. What am I?",
+        },
+        {
+          label: "500",
+          value: 1,
+          question: "The First Computer Mouse was Made of?",
+        },
+        {
+          label: "20",
+          value: 1,
+          question: "Why was qwerty keyboard designed?",
+        },
+        {
+          label: "30",
+          value: 1,
+          question: "Initial version of Youtube was a....?",
+        },
+        {
+          label: "JACKPOT",
+          value: 1,
+          question: "Python programming language was named after a?",
+        },
+      ];
+      var svg = d3
+        .select("#chart")
+        .append("svg")
+        .data([data])
+        .attr("width", w + padding.left + padding.right)
+        .attr("height", h + padding.top + padding.bottom);
 
-        var vis = container
-            .append("g");
+      var container = svg
+        .append("g")
+        .attr("class", "chartholder")
+        .attr(
+          "transform",
+          "translate(" +
+            (w / 2 + padding.left) +
+            "," +
+            (h / 2 + padding.top) +
+            ")"
+        );
 
-        var pie = d3.layout.pie().sort(null).value(function(d) {
-            return 1;
+      var vis = container.append("g");
+
+      var pie = d3.layout
+        .pie()
+        .sort(null)
+        .value(function (d) {
+          return 1;
         });
 
-        // declare an arc generator function
-        var arc = d3.svg.arc().outerRadius(r);
+      // declare an arc generator function
+      var arc = d3.svg.arc().outerRadius(r);
 
-        // select paths, use arc generator to draw
-        var arcs = vis.selectAll("g.slice")
-            .data(pie)
-            .enter()
-            .append("g")
-            .attr("class", "slice");
+      // select paths, use arc generator to draw
+      var arcs = vis
+        .selectAll("g.slice")
+        .data(pie)
+        .enter()
+        .append("g")
+        .attr("class", "slice");
 
+      arcs
+        .append("path")
+        .attr("fill", function (d, i) {
+          return color(i);
+        })
+        .attr("d", function (d) {
+          return arc(d);
+        });
 
-        arcs.append("path")
-            .attr("fill", function(d, i) {
-                return color(i);
-            })
-            .attr("d", function(d) {
-                return arc(d);
-            });
+      // add the text
+      arcs
+        .append("text")
+        .attr("transform", function (d) {
+          d.innerRadius = 0;
+          d.outerRadius = r;
+          d.angle = (d.startAngle + d.endAngle) / 2;
+          return (
+            "rotate(" +
+            ((d.angle * 180) / Math.PI - 90) +
+            ")translate(" +
+            (d.outerRadius - 10) +
+            ")"
+          );
+        })
+        .attr("text-anchor", "end")
+        .text(function (d, i) {
+          return data[i].label;
+        })
+        .style({
+          "font-weight": "bold",
+          "font-size": "15px",
+          fill: "#ffffff",
+        });
 
-        // add the text
-        arcs.append("text").attr("transform", function(d) {
-                d.innerRadius = 0;
-                d.outerRadius = r;
-                d.angle = (d.startAngle + d.endAngle) / 2;
-                return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")translate(" + (d.outerRadius - 10) + ")";
-            })
-            .attr("text-anchor", "end")
-            .text(function(d, i) {
-                return data[i].label;
-            })
-            .style({
-                "font-weight": "bold",
-                "font-size": "15px",
-                "fill": "#ffffff"
-            });
+      container.on("click", spin);
 
-        container.on("click", spin);
+      function spin(d) {
+        container.on("click", null);
 
+        //all slices have been seen, all done
+        console.log(
+          "OldPick: " + oldpick.length,
+          "Data length: " + data.length
+        );
+        if (oldpick.length == data.length) {
+          console.log("done");
+          container.on("click", null);
+          return;
+        }
 
-        function spin(d) {
+        var ps = 360 / data.length,
+          pieslice = Math.round(1440 / data.length),
+          rng = Math.floor(Math.random() * 1440 + 360);
 
-            container.on("click", null);
+        rotation = Math.round(rng / ps) * ps;
 
-            //all slices have been seen, all done
-            console.log("OldPick: " + oldpick.length, "Data length: " + data.length);
-            if (oldpick.length == data.length) {
-                console.log("done");
-                container.on("click", null);
-                return;
-            }
+        picked = Math.round(data.length - (rotation % 360) / ps);
+        picked = picked >= data.length ? picked % data.length : picked;
 
-            var ps = 360 / data.length,
-                pieslice = Math.round(1440 / data.length),
-                rng = Math.floor((Math.random() * 1440) + 360);
+        if (oldpick.indexOf(picked) !== -1) {
+          d3.select(this).call(spin);
+          return;
+        } else {
+          oldpick.push(picked);
+        }
 
-            rotation = (Math.round(rng / ps) * ps);
+        rotation += 360 - Math.round(ps / 2);
 
-            picked = Math.round(data.length - (rotation % 360) / ps);
-            picked = picked >= data.length ? (picked % data.length) : picked;
+        vis
+          .transition()
+          .duration(4000)
+          .attrTween("transform", rotTween)
+          .each("end", function () {
+            //mark question as seen
+            d3.select(".slice:nth-child(" + (picked + 1) + ") path").attr(
+              "fill",
+              "#ffffff"
+            );
 
+            //populate question
 
-            if (oldpick.indexOf(picked) !== -1) {
-                d3.select(this).call(spin);
-                return;
-            } else {
-                oldpick.push(picked);
-            }
+            d3.select("#question h1").text(data[picked].question);
 
-            rotation += 360 - Math.round(ps / 2);
+            d3.select("#image").html(" ");
 
-            vis.transition()
-                .duration(4000)
-                .attrTween("transform", rotTween)
-                .each("end", function() {
+            d3.select("#image").append("img").attr("src", data[picked].image);
 
-                    //mark question as seen
-                    d3.select(".slice:nth-child(" + (picked + 1) + ") path")
-                        .attr("fill", "#ffffff");
+            oldrotation = rotation;
 
-
-                    //populate question
-
-
-                    d3.select("#question h1")
-                        .text(data[picked].question)
-
-                    d3.select("#image")
-                        .html(" ");
-
-                    d3.select("#image")
-                        .append("img")
-                        .attr('src', data[picked].image)
-
-                    oldrotation = rotation;
-
-
-
-                    /* container.on("click", spin);
+            /* container.on("click", spin);
                     setTimeout(() => {
         image.remove();
     },2000);*/
 
+            container.on("click", spin);
+          });
+      }
 
-                    container.on("click", spin);
-
-                });
-
-        }
-
-        //draw spin circle
-        container.append("circle")
-            .attr("cx", 0)
-            .attr("cy", 0)
-            .attr("r", 42)
-            .style({
-                "fill": "white",
-                "cursor": "pointer"
-            });
-
-        //spin text
-        container.append("text")
-            .attr("x", 0)
-            .attr("y", 2)
-            .attr("text-anchor", "middle")
-            //  .text("SPIN")
-            .style({
-                "font-weight": "bold",
-                "font-size": "15px"
-            });
-
-        function rotTween(to) {
-            var i = d3.interpolate(oldrotation % 360, rotation);
-            return function(t) {
-                return "rotate(" + i(t) + ")";
-            };
-        }
-
-
-        function getRandomNumbers() {
-            var array = new Uint16Array(1000);
-            var scale = d3.scale.linear().range([360, 0]).domain([0, 10000]);
-
-            if (window.hasOwnProperty("crypto") && typeof window.crypto.getRandomValues === "function") {
-                window.crypto.getRandomValues(array);
-                console.log("works");
-            } else {
-                //no support for crypto, get crappy random numbers
-                for (var i = 0; i < 1000; i++) {
-                    array[i] = Math.floor(Math.random() * 10000) + 1;
-                }
-            }
-
-            return array;
-        }
-        //sliding modal
-        const btn = document.getElementById('btn');
-        const popup = document.getElementById('popup');
-        btn.addEventListener('click', () => {
-            popup.classList.toggle('active');
-            btn.classList.toggle('active');
+      //draw spin circle
+      container
+        .append("circle")
+        .attr("cx", 0)
+        .attr("cy", 0)
+        .attr("r", 42)
+        .style({
+          fill: "white",
+          cursor: "pointer",
         });
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
-    </script>
+
+      //spin text
+      container
+        .append("text")
+        .attr("x", 0)
+        .attr("y", 2)
+        .attr("text-anchor", "middle")
+        //  .text("SPIN")
+        .style({
+          "font-weight": "bold",
+          "font-size": "15px",
+        });
+
+      function rotTween(to) {
+        var i = d3.interpolate(oldrotation % 360, rotation);
+        return function (t) {
+          return "rotate(" + i(t) + ")";
+        };
+      }
+
+      function getRandomNumbers() {
+        var array = new Uint16Array(1000);
+        var scale = d3.scale.linear().range([360, 0]).domain([0, 10000]);
+
+        if (
+          window.hasOwnProperty("crypto") &&
+          typeof window.crypto.getRandomValues === "function"
+        ) {
+          window.crypto.getRandomValues(array);
+          console.log("works");
+        } else {
+          //no support for crypto, get crappy random numbers
+          for (var i = 0; i < 1000; i++) {
+            array[i] = Math.floor(Math.random() * 10000) + 1;
+          }
+        }
+
+        return array;
+      }
+      //sliding modal
+      const btn = document.getElementById("btn");
+      const popup = document.getElementById("popup");
+      btn.addEventListener("click", () => {
+        popup.classList.toggle("active");
+        btn.classList.toggle("active");
+      });
+    </script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js" integrity="sha512-RvUydNGlqYJapy0t4AH8hDv/It+zKsv4wOQGb+iOnEfa6NnF2fzjXgRy+FDjSpMfC3sjokNUzsfYZaZ8QAwIxg==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js" integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js" integrity="sha512-/8phkpsAzxsbuX18zNkQ2gCq4Q5JsWoPo1jHLDeZorPUHRtx9YJxpdk+os05oDhPJVCNzA2/NMl4rmJyQ+6Fvg==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineLite.min.js" integrity="sha512-I0VFyPo7hdM7YrEbQ0pvX4bX2904k0+B19u/xBrPrQoMprfcSnIDfGFD8kP52GbAhwtDjkEVhXlQvj8+vkJyew==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js" integrity="sha512-ht40uOoiTef4nKq0THVzjIGh3VS108J577LVVgNXnQLXza3doXjoM3owin2vd+Hm6w88k12RIrePIVY2WNzz6Q==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/BezierPlugin.min.js" integrity="sha512-oOy5+mtZRcqjn6b9k4oj+tk2/hVIetzOAM9Y5cndEHgLxiIGavAz1agbHf6JjGzxXZ2SMbu08Uy1DDF0UwA0qQ==" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+      integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"
+      integrity="sha512-RvUydNGlqYJapy0t4AH8hDv/It+zKsv4wOQGb+iOnEfa6NnF2fzjXgRy+FDjSpMfC3sjokNUzsfYZaZ8QAwIxg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"
+      integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"
+      integrity="sha512-/8phkpsAzxsbuX18zNkQ2gCq4Q5JsWoPo1jHLDeZorPUHRtx9YJxpdk+os05oDhPJVCNzA2/NMl4rmJyQ+6Fvg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineLite.min.js"
+      integrity="sha512-I0VFyPo7hdM7YrEbQ0pvX4bX2904k0+B19u/xBrPrQoMprfcSnIDfGFD8kP52GbAhwtDjkEVhXlQvj8+vkJyew=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"
+      integrity="sha512-ht40uOoiTef4nKq0THVzjIGh3VS108J577LVVgNXnQLXza3doXjoM3owin2vd+Hm6w88k12RIrePIVY2WNzz6Q=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/BezierPlugin.min.js"
+      integrity="sha512-oOy5+mtZRcqjn6b9k4oj+tk2/hVIetzOAM9Y5cndEHgLxiIGavAz1agbHf6JjGzxXZ2SMbu08Uy1DDF0UwA0qQ=="
+      crossorigin="anonymous"
+    ></script>
     <script src="typing.js " async defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "></script>
     <script src="./js/app.js"></script>
-</body>
-
+  </body>
 </html>
