@@ -383,7 +383,7 @@ let cardAdder = (arr, el) => {
     <div class="tCard-inner">
     <div class="tCard-front">
     <div class="tCard-img">
-    <img src="../media/team/${e.photoUrl}" alt="">
+    <img src="./media/team/${e.photoUrl}" alt="">
     <span class="tCard-yr">${e.year}</span>
     </div>
     <div class="tCard-text">
@@ -396,7 +396,7 @@ let cardAdder = (arr, el) => {
                     </div>
                     </div>
                     <div class="tCard-jobicon bg-${e.theme}">
-                    <img src="../media/${e.jobIcon}" alt="">
+                    <img src="./media/${e.jobIcon}" alt="">
                     </div>
                     </div>
                     </div>
