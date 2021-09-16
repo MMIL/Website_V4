@@ -40,7 +40,13 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
-  <body class="loading">
+  <script>
+    setTimeout(function () {
+      $(".loader").fadeToggle();
+    }, 5000);
+  </script>
+
+  <body>
     <div class="loader-wrap">
       <video class="loader" src="./media/LoaderMmil.mp4" muted autoplay></video>
     </div>
@@ -314,15 +320,7 @@
         <div class="row justify-content-center">&copy; MMIL 2020</div>
       </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-      setTimeout(function () {
-        $(".loader").fadeToggle(function () {
-          $("body").removeClass("loading");
-        });
-      }, 7000);
-    </script>
-    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <!-- <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script> -->
 
     <!-- Wheel Spin Script -->
     <!-- <script type="text/javascript" charset="utf-8">
@@ -629,7 +627,6 @@
       integrity="sha512-oOy5+mtZRcqjn6b9k4oj+tk2/hVIetzOAM9Y5cndEHgLxiIGavAz1agbHf6JjGzxXZ2SMbu08Uy1DDF0UwA0qQ=="
       crossorigin="anonymous"
     ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "></script>
     <script src="./js/app.js"></script>
