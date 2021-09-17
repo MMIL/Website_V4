@@ -30,26 +30,8 @@ const head_default = [
     jobIcon: "code.svg",
     year: "IV",
   },
-  {
-    name: "Shivangi",
-    theme: "blue",
-    photoUrl: "shivangi.jpg",
-    github_Url: "https://github.com/shivangi2000",
-    linkedIn: "https://www.linkedin.com/in/shivangi-verma-6b8a23136",
-    job: "Recruitment Head",
-    jobIcon: "design.svg",
-    year: "IV",
-  },
-  {
-    name: "Sakshi Parashar",
-    theme: "blue",
-    photoUrl: "sakshi.jpg",
-    github_Url: "https://github.com/MMIL",
-    linkedIn: "https://www.linkedin.com/in/sakshi-parashar-905b451a4	",
-    job: "Event Head",
-    jobIcon: "design.svg",
-    year: "IV",
-  },
+];
+const head_ex = [
   {
     name: "Sarthak yadav",
     theme: "yellow",
@@ -68,6 +50,26 @@ const head_default = [
     linkedIn: "https://www.linkedin.com/in/samyukta-varshney-192b92192/",
     job: "Treasurer",
     jobIcon: "code.svg",
+    year: "IV",
+  },
+  {
+    name: "Shivangi",
+    theme: "blue",
+    photoUrl: "shivangi.jpg",
+    github_Url: "https://github.com/shivangi2000",
+    linkedIn: "https://www.linkedin.com/in/shivangi-verma-6b8a23136",
+    job: "Recruitment Head",
+    jobIcon: "design.svg",
+    year: "IV",
+  },
+  {
+    name: "Sakshi Parashar",
+    theme: "blue",
+    photoUrl: "sakshi.jpg",
+    github_Url: "https://github.com/MMIL",
+    linkedIn: "https://www.linkedin.com/in/sakshi-parashar-905b451a4	",
+    job: "Event Head",
+    jobIcon: "design.svg",
     year: "IV",
   },
 ];
@@ -135,6 +137,16 @@ const tech_default = [
 ];
 const tech_teams = [
   {
+    name: "Diksha Shukla",
+    theme: "red",
+    photoUrl: "diksha.jpg",
+    github_Url: "https://github.com/dikshashukla455",
+    linkedIn: "https://www.linkedin.com/in/deeksha-shukla-98aa1a196",
+    job: "Developer",
+    jobIcon: "code.svg",
+    year: "III",
+  },
+  {
     name: "Parth Sharma",
     theme: "red",
     photoUrl: "parth.jpg",
@@ -165,13 +177,23 @@ const tech_teams = [
     year: "III",
   },
   {
-    name: "Diksha Shukla",
+    name: "Kavya Agarwal",
     theme: "red",
-    photoUrl: "diksha.jpg",
-    github_Url: "https://github.com/dikshashukla455",
-    linkedIn: "https://www.linkedin.com/in/deeksha-shukla-98aa1a196",
+    photoUrl: "kavya.jpg",
+    github_Url: "https://github.com/kavya2008",
+    linkedIn: "https://www.linkedin.com/in/kavya-agrawal-6a8b471a4",
     job: "Developer",
     jobIcon: "code.svg",
+    year: "III",
+  },
+  {
+    name: "Gauransh Verma",
+    theme: "purple",
+    photoUrl: "gauransh.jpg",
+    github_Url: "https://github.com/gaurverma",
+    linkedIn: "https://www.linkedin.com/in/gauransh-verma-5a5182191",
+    job: "Machine Learning",
+    jobIcon: "ml.svg",
     year: "III",
   },
 ];
@@ -208,20 +230,11 @@ const des_default = [
     jobIcon: "design.svg",
     year: "III",
   },
-  {
-    name: "Kavya Agarwal",
-    theme: "blue",
-    photoUrl: "kavya.jpg",
-    github_Url: "https://github.com/kavya2008",
-    linkedIn: "https://www.linkedin.com/in/kavya-agrawal-6a8b471a4",
-    job: "Graphic Designer",
-    jobIcon: "design.svg",
-    year: "III",
-  },
 ];
 const des_teams = [];
 
 const headDef = document.getElementById("head-def");
+const headBtn = document.getElementById("head-btn");
 
 const techDef = document.getElementById("tech-def");
 const techBtn = document.getElementById("tech-btn");
@@ -229,6 +242,7 @@ const techBtn = document.getElementById("tech-btn");
 const desDef = document.getElementById("des-def");
 // const desBtn = document.getElementById("des-btn");
 
+let headClose = true;
 let techClose = true;
 let desClose = true;
 let eventAdder = (booleanVal, el, btn, initial, extraCon) => {
@@ -284,6 +298,7 @@ let cardAdder = (arr, el) => {
   });
 };
 //For head section
+eventAdder(headClose, headDef, headBtn, head_default, head_ex);
 cardAdder(head_default, headDef);
 
 //For technical section
