@@ -65,7 +65,7 @@ body::-webkit-scrollbar-thumb {
 .igp {
   margin: 30px 40px 60px;
 }
-.posts-fb{
+.posts-fb {
   margin-bottom: 80px;
 }
 @media (max-width: 1100px) {
@@ -98,7 +98,7 @@ body::-webkit-scrollbar-thumb {
   .igp {
     margin: 30px 10px;
   }
-  .posts-fb{
+  .posts-fb {
     display: none;
   }
 }
