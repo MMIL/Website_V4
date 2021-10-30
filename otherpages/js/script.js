@@ -33,26 +33,6 @@ const head_default = [
 ];
 const head_ex = [
   {
-    name: "Sarthak yadav",
-    theme: "yellow",
-    photoUrl: "sarthak.jpg",
-    github_Url: "https://github.com/spysy11",
-    linkedIn: "https://www.linkedin.com/in/sarthak-yadav-43103517a",
-    job: "Promotion Head",
-    jobIcon: "zero.svg",
-    year: "IV",
-  },
-  {
-    name: "Samyukta Varshney",
-    theme: "red",
-    photoUrl: "samyukta.jpg",
-    github_Url: "https://github.com/samyukta20",
-    linkedIn: "https://www.linkedin.com/in/samyukta-varshney-192b92192/",
-    job: "Treasurer",
-    jobIcon: "code.svg",
-    year: "IV",
-  },
-  {
     name: "Shivangi",
     theme: "blue",
     photoUrl: "shivangi.jpg",
@@ -70,6 +50,26 @@ const head_ex = [
     linkedIn: "https://www.linkedin.com/in/sakshi-parashar-905b451a4	",
     job: "Event Head",
     jobIcon: "design.svg",
+    year: "IV",
+  },
+  {
+    name: "Samyukta Varshney",
+    theme: "red",
+    photoUrl: "samyukta.jpg",
+    github_Url: "https://github.com/samyukta20",
+    linkedIn: "https://www.linkedin.com/in/samyukta-varshney-192b92192/",
+    job: "Treasurer",
+    jobIcon: "code.svg",
+    year: "IV",
+  },
+  {
+    name: "Sarthak yadav",
+    theme: "yellow",
+    photoUrl: "sarthak.jpg",
+    github_Url: "https://github.com/spysy11",
+    linkedIn: "https://www.linkedin.com/in/sarthak-yadav-43103517a",
+    job: "Promotion Head",
+    jobIcon: "zero.svg",
     year: "IV",
   },
 ];
