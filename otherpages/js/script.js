@@ -232,7 +232,7 @@ const tech_teams = [
   {
     name: "Anadee",
     theme: "red",
-    photoUrl: "Anadee(Web Developer) (1).jpg",
+    photoUrl: "Anadee(Web Developer) (1).jpeg",
     github_Url: "https://github.com/Anadee11",
     linkedIn: "https://www.linkedin.com/in/anadee-yadav-11ay",
     job: "Developer",
@@ -242,7 +242,7 @@ const tech_teams = [
   {
     name: "Krapi ",
     theme: "red",
-    photoUrl: "krapi Rastogi(Front End web developer).jpg",
+    photoUrl: "krapi Rastogi(Front End web developer).jpeg",
     github_Url: "https://github.com/krapirastogi",
     linkedIn:"https://www.linkedin.com/in/krapi-rastogi-ab7307213" ,
     job: "Developer",
