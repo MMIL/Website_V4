@@ -295,7 +295,7 @@ const des_teams = [
  job: "Developer",
  jobIcon: "code.svg",
   year: "III"   
-  }
+  },
      {
     name: "Utkarsh Raghuvanshi",
     theme: "blue",
@@ -335,9 +335,9 @@ const des_teams = [
     job: "Designer",                                                                                                            
     jobIcon: "design.svg",                                                                                                                                             
     year: "II",
-                        }
+                        },
 
-  }
+  
 ];
 
 const headDef = document.getElementById("head-def");
