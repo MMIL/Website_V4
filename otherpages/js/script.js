@@ -224,7 +224,7 @@ const tech_teams = [
         photoUrl : 'Suyash Rastogi - Fullstack Dev.jpg',
         github_Url : 'https://github.com/suyashrastogi7',
         linkedIn : 'https://www.linkedin.com/in/suyash-rastogi/',
-        job : 'Fullstack Development',
+        job : 'Developer',
         jobIcon : 'code.svg',
         year : 'II'
     },
