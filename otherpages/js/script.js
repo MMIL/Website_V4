@@ -220,7 +220,7 @@ const tech_teams = [
   },
   {
         name : 'Suyash Rastogi',
-        theme : 'Red',
+        theme : 'red',
         photoUrl : 'Suyash Rastogi - Fullstack Dev.jpg',
         github_Url : 'https://github.com/suyashrastogi7',
         linkedIn : 'https://www.linkedin.com/in/suyash-rastogi/',
