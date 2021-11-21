@@ -134,7 +134,10 @@ const tech_default = [
     jobIcon: "code.svg",
     year: "III",
   },
-  { 
+ 
+];
+const tech_teams = [
+   { 
     name: "Anuj Agarwal",
     theme: "red",
     photoUrl: "anuj.jpg",
@@ -143,9 +146,7 @@ const tech_default = [
     job: "Developer",
     jobIcon: "code.svg",
     year: "II",
-  }
-];
-const tech_teams = [
+  },
   {
     name: "Diksha Shukla",
     theme: "red",
