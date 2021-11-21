@@ -213,7 +213,7 @@ const tech_teams = [
     theme: "red",
     photoUrl: "anuj_4.jpeg",
     github_Url: "https://github.com/anujagarwal1161",
-    linkedIn: "www.linkedin.com/in/anuj-agarwal-3396bb1bb",
+    linkedIn: "https://www.linkedin.com/in/anuj-agarwal-3396bb1bb",
     job: "Developer",
     jobIcon: "code.svg",
     year: "II",
