@@ -201,7 +201,7 @@ const tech_teams = [
   {
     name: "Rudrakshi",
     theme: "red",
-    photoUrl: "rudrakshi.jpg",
+    photoUrl: "Rudrakshi(Backend developer).jpg",
     github_Url: "https://github.com/rudrakshi99",
     linkedIn: "https://www.linkedin.com/in/rudrakshi-soni/",
     job: "Backend Developer",
