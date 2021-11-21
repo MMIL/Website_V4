@@ -232,7 +232,7 @@ const tech_teams = [
   {
     name: "Anadee",
     theme: "red",
-    photoUrl: "Anadee(Web Developer).jpg",
+    photoUrl: "Anadee(Web Developer) (1).jpg",
     github_Url: "https://github.com/Anadee11",
     linkedIn: "https://www.linkedin.com/in/anadee-yadav-11ay",
     job: "Developer",
