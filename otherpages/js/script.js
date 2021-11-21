@@ -221,7 +221,7 @@ const tech_teams = [
   {
         name : 'Suyash Rastogi',
         theme : 'Red',
-        photoUrl : 'suyash,jpg',
+        photoUrl : 'Suyash Rastogi - Fullstack Dev.jpg',
         github_Url : 'https://github.com/suyashrastogi7',
         linkedIn : 'https://www.linkedin.com/in/suyash-rastogi/',
         job : 'Fullstack Development',
@@ -232,7 +232,7 @@ const tech_teams = [
   {
     name: "Anadee",
     theme: "red",
-    photoUrl: "anadee.jpg",
+    photoUrl: "Anadee(Web Developer).jpg",
     github_Url: "https://github.com/Anadee11",
     linkedIn: "https://www.linkedin.com/in/anadee-yadav-11ay",
     job: "Developer",
@@ -242,7 +242,7 @@ const tech_teams = [
   {
     name: "Krapi ",
     theme: "red",
-    photoUrl: "krapi.jpg",
+    photoUrl: "krapi Rastogi(Front End web developer).jpg",
     github_Url: "https://github.com/krapirastogi",
     linkedIn:"https://www.linkedin.com/in/krapi-rastogi-ab7307213" ,
     job: "Developer",
