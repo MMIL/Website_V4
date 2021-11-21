@@ -137,16 +137,7 @@ const tech_default = [
  
 ];
 const tech_teams = [
-   { 
-    name: "Anuj Agarwal",
-    theme: "red",
-    photoUrl: "anuj.jpg",
-    github_Url: "https://github.com/anujagarwal1161",
-    linkedIn: "www.linkedin.com/in/anuj-agarwal-3396bb1bb",
-    job: "Developer",
-    jobIcon: "code.svg",
-    year: "II",
-  },
+ 
   {
     name: "Diksha Shukla",
     theme: "red",
@@ -217,6 +208,16 @@ const tech_teams = [
     jobIcon: "code.svg",
     year: "III",
   },
+    { 
+    name: "Anuj Agarwal",
+    theme: "red",
+    photoUrl: "anuj.jpg",
+    github_Url: "https://github.com/anujagarwal1161",
+    linkedIn: "www.linkedin.com/in/anuj-agarwal-3396bb1bb",
+    job: "Developer",
+    jobIcon: "code.svg",
+    year: "II",
+  },
   {
         name : 'Suyash Rastogi',
         theme : 'Red',
@@ -282,7 +283,20 @@ const des_default = [
     jobIcon: "design.svg",
     year: "III",
   },
+ 
+];
+const des_teams = [
   {
+   name: "kavya agrawal",
+   theme: "red",
+   photoUrl: "kavya.jpg",
+   github_Url: "https://github.com/kavya2008",
+   linkedIn: "https://www.linkedin.com/mwlite/in/kavya-agrawal-6a8b471a4",
+ job: "Developer",
+ jobIcon: "code.svg",
+  year: "III"   
+  }
+     {
     name: "Utkarsh Raghuvanshi",
     theme: "blue",
     photoUrl: "utkarsh.jpg",
@@ -292,8 +306,39 @@ const des_default = [
     jobIcon: "design.svg",
     year: "II",
    },
+  {
+    name: "Arnika sharma",
+    theme: "blue",
+    photoUrl: "arnika.jpg",
+    github_Url: "https://github.com/anika0318",
+    linkedIn: "linkedin.com/in/arnika-sharma-53496320b",
+    job: "Designer",
+    jobIcon: "design.svg",
+    year: "II",
+  },
+  {
+    name: "Utkarsh Raghuvanshi",
+     theme: "blue",
+     photoUrl: "utkarsh.jpg",
+     github_Url:"https://github.com/Utkarsh5521",
+      linkedIn:"https://www.linkedin.com/in/utkarsh-raghuvanshi-1771b220b",
+     job: "Designer",                                                                                                          
+    jobIcon: "design.svg",                                                                                                                                               
+      year: "II",
+  },
+    {
+    name: "Ashwin Raj Vats",
+    theme: "blue",
+    photoUrl: "ashwin.jpg",
+    github_Url:"http://www.github.com/ashwinrajvats",
+    linkedIn: "https://www.linkedin.com/in/ashwin-raj-vats-5911a41b7",                                                                                
+    job: "Designer",                                                                                                            
+    jobIcon: "design.svg",                                                                                                                                             
+    year: "II",
+                        }
+
+  }
 ];
-const des_teams = [];
 
 const headDef = document.getElementById("head-def");
 const headBtn = document.getElementById("head-btn");
