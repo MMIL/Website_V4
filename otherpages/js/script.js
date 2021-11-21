@@ -252,7 +252,7 @@ const tech_teams = [
   {
   name: "Ayush Pandey",
     theme: "Yellow",
-    photoUrl: "ayush.jpg",
+    photoUrl: "ayush_2.jpg",
     github_Url: "https://github.com/A-yush001",
     linkedIn: "https://www.linkedin.com/in/ayush-pandey-446447214/",
     job: "Programmer",
