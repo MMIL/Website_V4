@@ -134,6 +134,16 @@ const tech_default = [
     jobIcon: "code.svg",
     year: "III",
   },
+  { 
+    name: "Anuj Agarwal",
+    theme: "red",
+    photoUrl: "anuj.jpg",
+    github_Url: "https://github.com/anujagarwal1161",
+    linkedIn: "www.linkedin.com/in/anuj-agarwal-3396bb1bb",
+    job: "Developer",
+    jobIcon: "code.svg",
+    year: "II",
+  }
 ];
 const tech_teams = [
   {
@@ -196,6 +206,47 @@ const tech_teams = [
     jobIcon: "ml.svg",
     year: "III",
   },
+  {
+    name: "Rudrakshi",
+    theme: "red",
+    photoUrl: "rudrakshi.jpg",
+    github_Url: "https://github.com/rudrakshi99",
+    linkedIn: "https://www.linkedin.com/in/rudrakshi-soni/",
+    job: "Backend Developer",
+    jobIcon: "code.svg",
+    year: "III",
+  },
+  {
+        name : 'Suyash Rastogi',
+        theme : 'Red',
+        photoUrl : 'suyash,jpg',
+        github_Url : 'https://github.com/suyashrastogi7',
+        linkedIn : 'https://www.linkedin.com/in/suyash-rastogi/',
+        job : 'Fullstack Development',
+        jobIcon : 'code.svg',
+        year : 'II'
+    },
+ 
+  {
+    name: "Anadee",
+    theme: "red",
+    photoUrl: "anadee.jpg",
+    github_Url: "https://github.com/Anadee11",
+    linkedIn: "https://www.linkedin.com/in/anadee-yadav-11ay",
+    job: "Developer",
+    jobIcon: "code.svg",
+    year: "II",
+  },
+  {
+    name: "Krapi ",
+    theme: "red",
+    photoUrl: "krapi.jpg",
+    github_Url: "https://github.com/krapirastogi",
+    linkedIn:"https://www.linkedin.com/in/krapi-rastogi-ab7307213" ,
+    job: "Developer",
+    jobIcon: "code.svg",
+    year: "II",
+  },
 ];
 
 const des_default = [
@@ -230,6 +281,16 @@ const des_default = [
     jobIcon: "design.svg",
     year: "III",
   },
+  {
+    name: "Utkarsh Raghuvanshi",
+    theme: "blue",
+    photoUrl: "utkarsh.jpg",
+    github_Url: "",
+    linkedIn: "https://www.linkedin.com/in/utkarsh-raghuvanshi-1771b220b",
+    job: "Designer",
+    jobIcon: "design.svg",
+    year: "II",
+   },
 ];
 const des_teams = [];
 
