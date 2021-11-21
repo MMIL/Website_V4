@@ -249,6 +249,16 @@ const tech_teams = [
     jobIcon: "code.svg",
     year: "II",
   },
+  {
+  name: "Ayush Pandey",
+    theme: "Yellow",
+    photoUrl: "",
+    github_Url: "https://github.com/A-yush001",
+    linkedIn: "https://www.linkedin.com/in/ayush-pandey-446447214/",
+    job: "Programmer",
+    jobIcon: "zero.svg",
+    year: "II",
+  },
 ];
 
 const des_default = [
