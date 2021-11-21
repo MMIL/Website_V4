@@ -211,7 +211,7 @@ const tech_teams = [
     { 
     name: "Anuj Agarwal",
     theme: "red",
-    photoUrl: "anuj_1.jpeg",
+    photoUrl: "anuj_2.jpeg",
     github_Url: "https://github.com/anujagarwal1161",
     linkedIn: "www.linkedin.com/in/anuj-agarwal-3396bb1bb",
     job: "Developer",
