@@ -112,9 +112,9 @@ section {
   transform-style: preserve-3d;
 }
 
-/* .tCard:hover .tCard-inner {
+.tCard:hover .tCard-inner {
   transform: rotateY(-180deg);
-} */
+}
 
 .tCard-front,
 .tCard-back {
