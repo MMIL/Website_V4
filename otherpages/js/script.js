@@ -327,13 +327,7 @@ const des_teams = [
     job: "Designer",
     jobIcon: "design.svg",
     year: "II",
-<<<<<<< HEAD
   },
-=======
-    },
-
-  
->>>>>>> fd13cad588cfe99198fae97668a4d71096e3a816
 ];
 
 const headDef = document.getElementById("head-def");
