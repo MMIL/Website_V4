@@ -97,7 +97,7 @@ const tech_default = [
   {
     name: "Utkarsh Singh",
     theme: "yellow",
-    photoUrl: "utkarsh.jpg",
+    photoUrl: "utkarshS.jpg",
     github_Url: "https://github.com/wargraver",
     linkedIn: "https://www.linkedin.com/in/utkarsh-singh-0a934b173/",
     job: "Tech Lead",
@@ -134,10 +134,8 @@ const tech_default = [
     jobIcon: "code.svg",
     year: "III",
   },
- 
 ];
 const tech_teams = [
- 
   {
     name: "Diksha Shukla",
     theme: "red",
@@ -154,6 +152,16 @@ const tech_teams = [
     photoUrl: "parth.jpg",
     github_Url: "https://github.com/ParthSharma-jss",
     linkedIn: "https://www.linkedin.com/in/parth-sharma-1ba150197/",
+    job: "Developer",
+    jobIcon: "code.svg",
+    year: "III",
+  },
+  {
+    name: "Shashank Mishra",
+    theme: "red",
+    photoUrl: "Shashank.jpg",
+    github_Url: "https://github.com/Shashank03200",
+    linkedIn: "https://www.linkedin.com/in/shashank03210/",
     job: "Developer",
     jobIcon: "code.svg",
     year: "III",
@@ -201,17 +209,17 @@ const tech_teams = [
   {
     name: "Rudrakshi",
     theme: "red",
-    photoUrl: "Rudrakshi(Backend developer).jpg",
+    photoUrl: "Rudrakshi.jpg",
     github_Url: "https://github.com/rudrakshi99",
     linkedIn: "https://www.linkedin.com/in/rudrakshi-soni/",
     job: "Backend Developer",
     jobIcon: "code.svg",
     year: "III",
   },
-    { 
+  {
     name: "Anuj Agarwal",
     theme: "red",
-    photoUrl: "anuj_4.jpeg",
+    photoUrl: "anuj.jpeg",
     github_Url: "https://github.com/anujagarwal1161",
     linkedIn: "https://www.linkedin.com/in/anuj-agarwal-3396bb1bb",
     job: "Developer",
@@ -219,20 +227,19 @@ const tech_teams = [
     year: "II",
   },
   {
-        name : 'Suyash Rastogi',
-        theme : 'red',
-        photoUrl : 'Suyash Rastogi - Fullstack Dev.jpg',
-        github_Url : 'https://github.com/suyashrastogi7',
-        linkedIn : 'https://www.linkedin.com/in/suyash-rastogi/',
-        job : 'Developer',
-        jobIcon : 'code.svg',
-        year : 'II'
-    },
- 
+    name: "Suyash Rastogi",
+    theme: "red",
+    photoUrl: "Suyash.jpg",
+    github_Url: "https://github.com/suyashrastogi7",
+    linkedIn: "https://www.linkedin.com/in/suyash-rastogi/",
+    job: "Developer",
+    jobIcon: "code.svg",
+    year: "II",
+  },
   {
     name: "Anadee",
     theme: "red",
-    photoUrl: "Anadee(Web Developer) (1).jpeg",
+    photoUrl: "Anadee.jpg",
     github_Url: "https://github.com/Anadee11",
     linkedIn: "https://www.linkedin.com/in/anadee-yadav-11ay",
     job: "Developer",
@@ -242,17 +249,17 @@ const tech_teams = [
   {
     name: "Krapi ",
     theme: "red",
-    photoUrl: "krapi Rastogi(Front End web developer).jpeg",
+    photoUrl: "krapi.jpg",
     github_Url: "https://github.com/krapirastogi",
-    linkedIn:"https://www.linkedin.com/in/krapi-rastogi-ab7307213" ,
+    linkedIn: "https://www.linkedin.com/in/krapi-rastogi-ab7307213",
     job: "Developer",
     jobIcon: "code.svg",
     year: "II",
   },
   {
-  name: "Ayush Pandey",
-    theme: "Yellow",
-    photoUrl: "ayush_2.jpg",
+    name: "Ayush Pandey",
+    theme: "yellow",
+    photoUrl: "ayushP.jpg",
     github_Url: "https://github.com/A-yush001",
     linkedIn: "https://www.linkedin.com/in/ayush-pandey-446447214/",
     job: "Programmer",
@@ -272,7 +279,6 @@ const des_default = [
     jobIcon: "design.svg",
     year: "IV",
   },
-
   {
     name: "Anmol Puri",
     theme: "blue",
@@ -293,29 +299,15 @@ const des_default = [
     jobIcon: "design.svg",
     year: "III",
   },
- 
 ];
 const des_teams = [
   {
-   name: "kavya agrawal",
-   theme: "red",
-   photoUrl: "kavya.jpg",
-   github_Url: "https://github.com/kavya2008",
-   linkedIn: "https://www.linkedin.com/mwlite/in/kavya-agrawal-6a8b471a4",
- job: "Developer",
- jobIcon: "code.svg",
-  year: "III"   
-  },
-     {
     name: "Utkarsh Raghuvanshi",
     theme: "blue",
-    photoUrl: "utkarsh.jpg",
-    github_Url: "",
-    linkedIn: "https://www.linkedin.com/in/utkarsh-raghuvanshi-1771b220b",
-    job: "Designer",
-    jobIcon: "design.svg",
-    year: "II",
-   },
+    photoUrl: "utkarshR.jpg",
+    github_Url:"https://github.com/Utkarsh5521",
+    linkedIn: "https://www.linkedin.com/in/utkarsh-raghuvanshi-1771b220b",                                                                                 job: "Designer",                                                                                                            jobIcon: "design.svg",                                                                                                                                               year: "II",
+  },
   {
     name: "Arnika sharma",
     theme: "blue",
@@ -327,27 +319,15 @@ const des_teams = [
     year: "II",
   },
   {
-    name: "Utkarsh Raghuvanshi",
-     theme: "blue",
-     photoUrl: "utkarsh.jpg",
-     github_Url:"https://github.com/Utkarsh5521",
-      linkedIn:"https://www.linkedin.com/in/utkarsh-raghuvanshi-1771b220b",
-     job: "Designer",                                                                                                          
-    jobIcon: "design.svg",                                                                                                                                               
-      year: "II",
-  },
-    {
     name: "Ashwin Raj Vats",
     theme: "blue",
     photoUrl: "ashwin.jpg",
-    github_Url:"http://www.github.com/ashwinrajvats",
-    linkedIn: "https://www.linkedin.com/in/ashwin-raj-vats-5911a41b7",                                                                                
-    job: "Designer",                                                                                                            
-    jobIcon: "design.svg",                                                                                                                                             
+    github_Url: "http://www.github.com/ashwinrajvats",
+    linkedIn: "https://www.linkedin.com/in/ashwin-raj-vats-5911a41b7",
+    job: "Designer",
+    jobIcon: "design.svg",
     year: "II",
-                        },
-
-  
+  },
 ];
 
 const headDef = document.getElementById("head-def");
@@ -357,7 +337,7 @@ const techDef = document.getElementById("tech-def");
 const techBtn = document.getElementById("tech-btn");
 
 const desDef = document.getElementById("des-def");
-// const desBtn = document.getElementById("des-btn");
+const desBtn = document.getElementById("des-btn");
 
 let headClose = true;
 let techClose = true;
@@ -424,6 +404,6 @@ cardAdder(tech_default, techDef);
 // cardAdder(tech_teams, techDef);
 
 //For designing section
-// eventAdder(desClose, desDef, desBtn, des_default, des_teams);
+eventAdder(desClose, desDef, desBtn, des_default, des_teams);
 cardAdder(des_default, desDef);
 // cardAdder(des_teams, desDef);
