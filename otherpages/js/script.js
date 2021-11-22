@@ -345,7 +345,7 @@ const des_teams = [
     job: "Designer",                                                                                                            
     jobIcon: "design.svg",                                                                                                                                             
     year: "II",
-                        },
+    },
 
   
 ];
