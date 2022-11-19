@@ -7,7 +7,7 @@ const head_default = [
     linkedIn: "https://www.linkedin.com/in/shristi-singh-762987173",
     job: "President",
     jobIcon: "design.svg",
-    year: "IV",
+    
   },
   {
     name: "Arjit Singh",
@@ -17,7 +17,7 @@ const head_default = [
     linkedIn: "https://www.linkedin.com/in/arjit-kushwaha-9b68b2173/",
     job: "CTC",
     jobIcon: "zero.svg",
-    year: "IV",
+   
   },
 
   {
@@ -28,7 +28,7 @@ const head_default = [
     linkedIn: "https://www.linkedin.com/in/yashi-gupta-b82987173/",
     job: "General Secretary",
     jobIcon: "code.svg",
-    year: "IV",
+   
   },
 ];
 const head_ex = [
@@ -40,7 +40,7 @@ const head_ex = [
     linkedIn: "https://www.linkedin.com/in/shivangi-verma-6b8a23136",
     job: "Recruitment Head",
     jobIcon: "design.svg",
-    year: "IV",
+   
   },
   {
     name: "Sakshi Parashar",
@@ -50,7 +50,7 @@ const head_ex = [
     linkedIn: "https://www.linkedin.com/in/sakshi-parashar-905b451a4	",
     job: "Event Head",
     jobIcon: "design.svg",
-    year: "IV",
+   
   },
   {
     name: "Samyukta Varshney",
@@ -60,7 +60,7 @@ const head_ex = [
     linkedIn: "https://www.linkedin.com/in/samyukta-varshney-192b92192/",
     job: "Treasurer",
     jobIcon: "code.svg",
-    year: "IV",
+    
   },
   {
     name: "Sarthak yadav",
@@ -70,7 +70,7 @@ const head_ex = [
     linkedIn: "https://www.linkedin.com/in/sarthak-yadav-43103517a",
     job: "Promotion Head",
     jobIcon: "zero.svg",
-    year: "IV",
+   
   },
 ];
 const tech_default = [
@@ -82,7 +82,7 @@ const tech_default = [
     linkedIn: "https://www.linkedin.com/in/shantanu-rathore/",
     job: "Android Head",
     jobIcon: "android.svg",
-    year: "IV",
+    
   },
   {
     name: "Manshi Todi",
@@ -92,7 +92,7 @@ const tech_default = [
     linkedIn: "https://www.linkedin.com/in/manshi-todi-a017a2178",
     job: "Web Head",
     jobIcon: "code.svg",
-    year: "IV",
+    
   },
   {
     name: "Utkarsh Singh",
@@ -102,7 +102,7 @@ const tech_default = [
     linkedIn: "https://www.linkedin.com/in/utkarsh-singh-0a934b173/",
     job: "Tech Lead",
     jobIcon: "zero.svg",
-    year: "IV",
+    
   },
   {
     name: "Yash Raj Singh",
@@ -112,7 +112,7 @@ const tech_default = [
     linkedIn: "https://www.linkedin.com/in/yash-raj-singh-121aa7173",
     job: "Programming Head",
     jobIcon: "zero.svg",
-    year: "IV",
+    
   },
   {
     name: "Ayush Paharia",
@@ -120,9 +120,9 @@ const tech_default = [
     photoUrl: "ayush.jpg",
     github_Url: "https://github.com/AyushPaharia1812",
     linkedIn: "https://www.linkedin.com/in/ayushcodes1812",
-    job: "Developer",
+    job: "Backend head",
     jobIcon: "code.svg",
-    year: "III",
+    year: "IV",
   },
   {
     name: "Neeraj Maurya",
@@ -130,9 +130,9 @@ const tech_default = [
     photoUrl: "neeraj.jpg",
     github_Url: "https://github.com/Neerajx11",
     linkedIn: "https://www.linkedin.com/in/mauryaneeraj11/",
-    job: "Developer",
+    job: "General Secretory",
     jobIcon: "code.svg",
-    year: "III",
+    year: "IV",
   },
 ];
 const tech_teams = [
@@ -142,9 +142,9 @@ const tech_teams = [
     photoUrl: "diksha.jpg",
     github_Url: "https://github.com/dikshashukla455",
     linkedIn: "https://www.linkedin.com/in/deeksha-shukla-98aa1a196",
-    job: "Developer",
+    job: "Technical lead",
     jobIcon: "code.svg",
-    year: "III",
+    year: "IV",
   },
   {
     name: "Parth Sharma",
@@ -152,9 +152,9 @@ const tech_teams = [
     photoUrl: "parth.jpg",
     github_Url: "https://github.com/ParthSharma-jss",
     linkedIn: "https://www.linkedin.com/in/parth-sharma-1ba150197/",
-    job: "Developer",
+    job: "President",
     jobIcon: "code.svg",
-    year: "III",
+    year: "IV",
   },
   {
     name: "Shashank Mishra",
@@ -162,9 +162,9 @@ const tech_teams = [
     photoUrl: "Shashank.jpg",
     github_Url: "https://github.com/Shashank03200",
     linkedIn: "https://www.linkedin.com/in/shashank03210/",
-    job: "Developer",
+    job: "Recruitment head",
     jobIcon: "code.svg",
-    year: "III",
+    year: "IV",
   },
   {
     name: "Samyak Singh",
@@ -172,9 +172,9 @@ const tech_teams = [
     photoUrl: "samyak.jpg",
     github_Url: "https://github.com/SAMYAK99",
     linkedIn: "https://www.linkedin.com/in/samyak-singh-007abc",
-    job: "Developer",
+    job: "Android head",
     jobIcon: "android.svg",
-    year: "III",
+    year: "IV",
   },
   {
     name: "Nitya Tiwari",
@@ -182,9 +182,9 @@ const tech_teams = [
     photoUrl: "nitya.jpg",
     github_Url: "https://github.com/nityatiwari13",
     linkedIn: "https://www.linkedin.com/in/nitya-tiwari-45bb491a4/",
-    job: "Programmer",
+    job: "Event head",
     jobIcon: "zero.svg",
-    year: "III",
+    year: "IV",
   },
   {
     name: "Gauransh Verma",
@@ -192,9 +192,9 @@ const tech_teams = [
     photoUrl: "gauransh.jpg",
     github_Url: "https://github.com/gaurverma",
     linkedIn: "https://www.linkedin.com/in/gauransh-verma-5a5182191",
-    job: "Machine Learning",
+    job: "Programming head",
     jobIcon: "ml.svg",
-    year: "III",
+    year: "IV",
   },
   {
     name: "Rudrakshi",
@@ -202,9 +202,9 @@ const tech_teams = [
     photoUrl: "Rudrakshi.jpg",
     github_Url: "https://github.com/rudrakshi99",
     linkedIn: "https://www.linkedin.com/in/rudrakshi-soni/",
-    job: "Backend Developer",
+    job: "Web developer head",
     jobIcon: "code.svg",
-    year: "III",
+    year: "IV",
   },
   {
     name: "Anuj Agarwal",
@@ -214,7 +214,7 @@ const tech_teams = [
     linkedIn: "https://www.linkedin.com/in/anuj-agarwal-3396bb1bb",
     job: "Developer",
     jobIcon: "code.svg",
-    year: "II",
+    year: "III",
   },
   {
     name: "Suyash Rastogi",
@@ -224,7 +224,7 @@ const tech_teams = [
     linkedIn: "https://www.linkedin.com/in/suyash-rastogi/",
     job: "Developer",
     jobIcon: "code.svg",
-    year: "II",
+    year: "III",
   },
   {
     name: "Krapi ",
@@ -234,7 +234,7 @@ const tech_teams = [
     linkedIn: "https://www.linkedin.com/in/krapi-rastogi-ab7307213",
     job: "Developer",
     jobIcon: "code.svg",
-    year: "II",
+    year: "III",
   },
   {
     name: "Ayush Pandey",
@@ -244,7 +244,7 @@ const tech_teams = [
     linkedIn: "https://www.linkedin.com/in/ayush-pandey-446447214/",
     job: "Programmer",
     jobIcon: "zero.svg",
-    year: "II",
+    year: "III",
   },
 ];
 
@@ -257,7 +257,7 @@ const des_default = [
     linkedIn: "https://www.linkedin.com/in/divyanshu-mishra-118994173/",
     job: "Design Head",
     jobIcon: "design.svg",
-    year: "IV",
+    
   },
   {
     name: "Anmol Puri",
@@ -265,9 +265,9 @@ const des_default = [
     photoUrl: "anmol.jpg",
     github_Url: "https://github.com/1AnmolPuri1",
     linkedIn: "https://www.linkedin.com/in/anmol-puri-401b441a4",
-    job: "Designer",
+    job: "Design head",
     jobIcon: "design.svg",
-    year: "III",
+    year: "IV",
   },
   {
     name: "Kushal Gautam",
@@ -275,9 +275,9 @@ const des_default = [
     photoUrl: "kushal.jpg",
     github_Url: "https://github.com/kushalgautam",
     linkedIn: "https://www.linkedin.com/in/kushal-gautam-870b471a4",
-    job: "Designer",
+    job: "CTC",
     jobIcon: "design.svg",
-    year: "III",
+    year: "IV",
   },
 ];
 const des_teams = [
@@ -296,7 +296,7 @@ const des_teams = [
     linkedIn: "linkedin.com/in/arnika-sharma-53496320b",
     job: "Designer",
     jobIcon: "design.svg",
-    year: "II",
+    year: "III",
   },
   {
     name: "Ashwin Raj Vats",
@@ -306,7 +306,7 @@ const des_teams = [
     linkedIn: "https://www.linkedin.com/in/ashwin-raj-vats-5911a41b7",
     job: "Designer",
     jobIcon: "design.svg",
-    year: "II",
+    year: "III",
   },
 ];
 
